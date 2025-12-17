@@ -23,7 +23,7 @@ function AppointmentsPanelInner() {
   const [tabIndex, setTabIndex] = useState(0);
   const [searchText, setSearchText] = useState('');
   const { data, refetch, isFetching } = useFilteredAppointments({
-    size: 45,
+    size: 20,
     searchText,
   });
 
